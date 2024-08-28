@@ -1,0 +1,37 @@
+```plaintext
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+Cálculo de Desconto em Compras
+
+Descrição: Desenvolva um programa em Python que solicite ao usuário o valor de uma compra. Se o valor for superior a R$ 100,00, o programa deve aplicar automaticamente um desconto de 15% e exibir o valor final a ser pago. Caso contrário, o valor da compra deve ser exibido sem desconto.
+
+Funcionalidades obrigatórias:
+
+1. Leitura do valor da compra inserido pelo usuário.
+2. Verificação se o valor da compra excede R$ 100,00.
+3. Aplicação de um desconto de 15% se o valor for superior a R$ 100,00.
+4. Exibição do valor final, com ou sem desconto.
+Tecnologias: Python 3.x
+
+Licença: MIT License
